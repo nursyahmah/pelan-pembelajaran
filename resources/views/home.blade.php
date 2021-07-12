@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-2 border"> : تاهون</div>
             </div>
-            <div class="row p-3">
+            <div class="row p-3" style="justify-content:flex-end;">
                 <div class="col-2 border">
                     <select name="tajuk" id="" class="form-control main-select2">
                         <option value="Tilawah"> تلاوة </option>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-2 border"> : تاجوق</div>
             </div>
-            <div class="row p-3">
+            <div class="row p-3" style="justify-content:flex-end;">
                 <div class="col-2 border">
                     <input type="datetime-local" class="form-control" name="sampai" id="">
                 </div>
