@@ -42,7 +42,7 @@
             </div>
             <div class="row p-3" style="justify-content:flex-end;">
                 <div class="col-2 border">
-                    <select name="tajuk" id="" class="form-control main-select2">
+                    <select name="tajuk" id="main-select2" class="form-control main-select2">
                         <option value="Membaca"> ممباچ </option>
                         <option value="Menghafaz">مڠحفظ</option>
                         <option value="Mengetahui">مڠتهوءي</option>
@@ -60,11 +60,14 @@
 
     </div>
 </div>
+
+@endsection
+@section('script')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script>
 $(document).ready(function() {
-    $('.main-select2').select2();
+    $('#main-select2').select2();
 });
 </script>
 @endsection
