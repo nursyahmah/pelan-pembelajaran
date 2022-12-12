@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="white-box p-3" style="background:white; text-align:center; height: 100%;" id="printableArea">
-    <label for="" class="bigger-label pt-2" style="font-size: 30px;">رانچڠن ڤ & ڤ هارين دري رومه</label>
+    <label for="" class="bigger-label pt-2" style="font-size: 30px;">رانچڠن ڤ & ڤ هارين</label>
     <div class="row justify-content-start"><a href="#" class="btn btn-sm btn-success mt-2" onclick="window.print()">Print Preview</a></div>
     <div class="row pt-3 justify-content-end">
         <div class="col border-right-0 border">
